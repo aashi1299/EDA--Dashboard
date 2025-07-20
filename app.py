@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Quick EDA & KPI", layout="wide")
+st.set_page_config(page_title="Data Analysis: Dashboard", layout="wide")
 
-st.title("📊 Quick EDA & KPI Generator")
+st.title("📊 Data Analysis: Dashboard")
 st.caption("Upload a CSV (≤ 200 MB). Everything runs locally—your data never leaves the browser session.")
 
 # ---------- File upload ----------
